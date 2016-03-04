@@ -1,0 +1,15 @@
+server:
+  port: 9005
+
+eureka:
+#  instance:
+#    hostname: app2
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+  instance:
+    preferIpAddress: true
+
+ribbon:
+  eureka:
+    enabled: true

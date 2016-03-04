@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-app1/spring-cloud-app1.iml" filepath="$PROJECT_DIR$/spring-cloud-app1/spring-cloud-app1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-app2/spring-cloud-app2.iml" filepath="$PROJECT_DIR$/spring-cloud-app2/spring-cloud-app2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-config/spring-cloud-config.iml" filepath="$PROJECT_DIR$/spring-cloud-config/spring-cloud-config.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-dashboard/spring-cloud-dashboard.iml" filepath="$PROJECT_DIR$/spring-cloud-dashboard/spring-cloud-dashboard.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-demo.iml" filepath="$PROJECT_DIR$/spring-cloud-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-discovy/spring-cloud-discovy.iml" filepath="$PROJECT_DIR$/spring-cloud-discovy/spring-cloud-discovy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-hystrix/spring-cloud-hystrix.iml" filepath="$PROJECT_DIR$/spring-cloud-hystrix/spring-cloud-hystrix.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-tubine/spring-cloud-tubine.iml" filepath="$PROJECT_DIR$/spring-cloud-tubine/spring-cloud-tubine.iml" />
+    </modules>
+  </component>
+</project>
