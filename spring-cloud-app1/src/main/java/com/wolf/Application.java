@@ -12,7 +12,7 @@ import org.springframework.cloud.netflix.hystrix.EnableHystrix;
 @SpringBootApplication
 @EnableDiscoveryClient
 @EnableCircuitBreaker
-@EnableHystrix
+//@EnableHystrix
 public class Application {
     public static void main(String[] args) {
         SpringApplication.run(Application.class,args);
