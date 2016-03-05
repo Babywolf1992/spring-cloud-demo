@@ -4,9 +4,6 @@ info:
 server:
   port: 9999
 
-management:
-  port: 9999
-
 eureka:
   client:
     serviceUrl:
@@ -18,7 +15,13 @@ eureka:
     leaseRenewalIntervalInSeconds: 5
 
 turbine:
+#  aggregator:
+#      clusterConfig: HYSTRIX,APP1,APP2
   appConfig: hystrix,app1,app2
-  clusterNameExpression: new String("default")
+#  ConfigPropertyBasedDiscovery:
+#      CLIENTSAMPLE:
+#        instances: localhost:9006,localhost:9005,localhost:8080
+  clusterNameExpression: new String('default')
+#  clusterNameExpression: metadata['cluster']
 
 
