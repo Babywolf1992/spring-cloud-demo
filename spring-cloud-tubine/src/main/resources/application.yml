@@ -12,5 +12,5 @@ eureka:
     preferIpAddress: true
 
 turbine:
-  appConfig: hystrix,app1,app2
+  appConfig: app1,hystrix,app2
   clusterNameExpression:  new String("default")
