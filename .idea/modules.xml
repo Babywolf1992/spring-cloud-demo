@@ -8,6 +8,7 @@
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-dashboard/spring-cloud-dashboard.iml" filepath="$PROJECT_DIR$/spring-cloud-dashboard/spring-cloud-dashboard.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-demo.iml" filepath="$PROJECT_DIR$/spring-cloud-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-discovy/spring-cloud-discovy.iml" filepath="$PROJECT_DIR$/spring-cloud-discovy/spring-cloud-discovy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-feign/spring-cloud-feign.iml" filepath="$PROJECT_DIR$/spring-cloud-feign/spring-cloud-feign.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-hystrix/spring-cloud-hystrix.iml" filepath="$PROJECT_DIR$/spring-cloud-hystrix/spring-cloud-hystrix.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-tubine/spring-cloud-tubine.iml" filepath="$PROJECT_DIR$/spring-cloud-tubine/spring-cloud-tubine.iml" />
     </modules>

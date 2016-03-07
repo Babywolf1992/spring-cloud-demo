@@ -27,6 +27,7 @@
         <module name="spring-cloud-config" />
         <module name="spring-cloud-dashboard" />
         <module name="spring-cloud-discovy" />
+        <module name="spring-cloud-feign" />
         <module name="spring-cloud-hystrix" />
         <module name="spring-cloud-tubine" />
       </profile>
@@ -39,6 +40,7 @@
       <module name="spring-cloud-demo" target="1.6" />
       <module name="spring-cloud-discover" target="1.6" />
       <module name="spring-cloud-discovy" target="1.6" />
+      <module name="spring-cloud-feign" target="1.6" />
       <module name="spring-cloud-hystrix" target="1.6" />
       <module name="spring-cloud-tubine" target="1.6" />
     </bytecodeTargetLevel>

@@ -77,5 +77,6 @@
         <module>spring-cloud-hystrix</module>
         <module>spring-cloud-dashboard</module>
         <module>spring-cloud-tubine</module>
+        <module>spring-cloud-feign</module>
     </modules>
 </project>
