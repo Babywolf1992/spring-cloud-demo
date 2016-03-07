@@ -26,7 +26,12 @@ public class Application {
     }
 
     @RequestMapping(value = "/app2")
-    public String welcome() {
+    public String app() {
         return mainController.getStores();
+    }
+
+    @RequestMapping(value = "/welcome")
+    public String welcome() {
+        return "welcome app2";
     }
 }
