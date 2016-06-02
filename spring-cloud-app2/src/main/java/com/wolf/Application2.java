@@ -17,12 +17,12 @@ import org.springframework.web.bind.annotation.RestController;
 @EnableDiscoveryClient
 @EnableCircuitBreaker
 @RestController
-public class Application {
+public class Application2 {
     @Autowired
     private MainController mainController;
 
     public static void main(String[] args) {
-        SpringApplication.run(Application.class,args);
+        SpringApplication.run(Application2.class,args);
     }
 
     @RequestMapping(value = "/app2")

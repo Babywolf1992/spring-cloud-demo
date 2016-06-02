@@ -22,13 +22,13 @@ import org.springframework.web.bind.annotation.RestController;
 @EnableCircuitBreaker
 @FeignClient
 @RestController
-public class Application extends SpringBootServletInitializer {
+public class Application1 extends SpringBootServletInitializer {
     @Autowired
     private MainController mainController;
 
     private LoadBalancerClient loadBalancerClient;
     public static void main(String[] args) {
-        SpringApplication.run(Application.class,args);
+        SpringApplication.run(Application1.class,args);
     }
 
     @RequestMapping(value = "/app1")
