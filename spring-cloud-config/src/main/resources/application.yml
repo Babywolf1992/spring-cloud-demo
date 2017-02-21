@@ -16,3 +16,12 @@ spring:
       server:
         git:
           uri: https://github.com/Babywolf1992/spring-cloud/configapplication
+          repos:
+            development:
+              pattern:
+                - */development
+              uri: https://github.com/Babywolf1992/spring-cloud/configapplication
+            distribution:
+              pattern:
+                - */distribution
+              uri: https://github.com/Babywolf1992/spring-cloud/configapplication
